@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+PyPDF2
+transformers
+langchain-core
+langchain-community
+sentence-transformers
+scikit-learn
+nltk
+spacy
+tabulate
