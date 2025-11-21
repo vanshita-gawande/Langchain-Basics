@@ -2,8 +2,8 @@
 from fastapi import FastAPI, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from utils import save_upload, extract_text_from_pdf
-from model_logic import analyze_resume
+from backend.utils import save_upload, extract_text_from_pdf
+from backend.model_logic import analyze_resume
 
 app = FastAPI()#creates fastapi app
 #solved the connection issue as both runs on diff origin browser solved this issue
